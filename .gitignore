@@ -1,0 +1,28 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.python-version
+.venv/
+venv/
+
+# R session and package-manager state
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+renv/library/
+
+# Generated figure outputs
+Figure/
+Figure_Code/Figure/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak

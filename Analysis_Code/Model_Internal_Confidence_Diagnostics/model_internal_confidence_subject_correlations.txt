@@ -1,0 +1,109 @@
+participant	diagnostic	x	y	expected_direction	spearman_rho	spearman_p	n_trials
+1	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9106211909149795	4.141322784133704e-47	120
+2	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.6666585859060692	9.466308523220953e-17	120
+3	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.6724423041813451	4.100540204650888e-17	120
+4	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.8643256634316757	5.073809090140578e-37	120
+5	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9124666126052959	1.277690026502236e-47	120
+6	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9711543421632429	2.57535096513205e-75	120
+7	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.7182017223004399	2.6377565431354884e-20	120
+8	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.977618497882669	9.786223190944459e-82	120
+9	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.6244714643687624	2.51201484038316e-14	120
+10	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9527222069592799	6.891397305871624e-63	120
+11	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.7678736557233979	1.4278050312937105e-24	120
+12	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.8464641805227354	4.330470629951132e-34	120
+13	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.5969137478806831	6.23651524860761e-13	120
+14	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9231835023506602	7.910504441234974e-51	120
+15	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9223329555454726	1.4771218832791943e-50	120
+16	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.977618497882669	9.786223190944459e-82	120
+17	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9114459564390708	2.4562267250864324e-47	120
+18	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9104253002728457	4.684901542326483e-47	120
+19	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9189307683247221	1.6754765825113123e-49	120
+20	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9657108426100421	5.913995500536609e-71	120
+21	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9641798583607043	7.444782084400224e-70	120
+22	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9522722030880775	1.1894344690254611e-62	120
+23	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.962478764750329	1.094571434236801e-68	120
+24	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9155285811039715	1.7124513574662797e-48	120
+25	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.900899176054744	1.36997048950915e-44	120
+26	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9036209258313446	2.8741747949516364e-45	120
+27	Self-confidence vs scenario complexity	scenario_complexity_code	ppCs	negative	-0.9085540973014329	1.50044840598926e-46	120
+1	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.3459050779319277	0.00010897082650164582	120
+2	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.4086629838940236	3.5900608752585325e-06	120
+3	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.5500892508508595	7.623719287325284e-11	120
+4	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.284031086138312	0.0016674090255378532	120
+5	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.21390722877221424	0.018979604114302103	120
+6	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.17913993814532542	0.05026446040899699	120
+7	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.3756635216040953	2.3573121866362528e-05	120
+8	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.19122009844788848	0.03642667595050181	120
+9	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.3506192868304889	8.636118993820112e-05	120
+10	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.3114324253611989	0.0005354116618180164	120
+11	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.13140857304739334	0.1525295633233406	120
+12	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.2828525339136717	0.0017466120432536312	120
+13	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.5612854969849423	2.585494973780001e-11	120
+14	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.2495584335675833	0.005981481120440318	120
+15	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.2669420788810277	0.0032058962322218947	120
+16	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.22893376963637807	0.011900178214105859	120
+17	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.29228095171079416	0.0011982185886715232	120
+18	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.33529810791016507	0.00018145353267063065	120
+19	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.256335108859265	0.004713366562390469	120
+20	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.2592814894208657	0.004241346367421197	120
+21	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.2586922133085456	0.004332215780282974	120
+22	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.2277552174117378	0.012356695572854248	120
+23	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.22687130324325755	0.012709062746130869	120
+24	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.29670052255319523	0.0009997559723213443	120
+25	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.2961112464408751	0.0010243569814921583	120
+26	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.3261643281692027	0.00027744576734931037	120
+27	Agent-confidence vs ADS reliability	agent_reliability_code	ppCo	positive	0.3279321565061632	0.00025581901600975267	120
+1	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.17656512407508404	0.05474587362529036	119
+2	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.24932574716067032	0.006248695113589563	119
+3	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.1993224923259483	0.02976095700403363	119
+4	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.2951822988816454	0.001118030803093421	119
+5	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.06722926454528144	0.46755310631985353	119
+6	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.2421395264241516	0.007974355851449257	119
+7	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.025970968681198196	0.7791961893793831	119
+8	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.33700910173813703	0.00017840728663616774	119
+9	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.20834684640859916	0.022976874520875854	119
+10	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.48933762957951865	1.6305181867813945e-08	119
+11	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.1452168691347765	0.11507812513970309	119
+12	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.24666080388850298	0.0068455202199432215	119
+13	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.1251696332290357	0.17498219490942346	119
+14	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.21093544848608492	0.021294658664480732	119
+15	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.3448972123775015	0.00012242184032132755	119
+16	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.39684143050854087	7.88714609397015e-06	119
+17	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.2452109721931715	0.007191005823897779	119
+18	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.2446990025890866	0.007316645303691373	119
+19	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.24697881981139463	0.006771737648346034	119
+20	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.4344724203125596	7.934288889365241e-07	119
+21	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.385831958287623	1.4674126758711494e-05	119
+22	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.38898156783059984	1.2313962262067475e-05	119
+23	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.35991525916270795	5.8110169780033746e-05	119
+24	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.33809108150094197	0.00016952571951042914	119
+25	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.3168689155903603	0.00044630157943658175	119
+26	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.3449010919542831	0.00012239886468486837	119
+27	Agent-confidence vs previous choice accuracy	previous_choice_accuracy_code	ppCo	positive	0.40586003997872483	4.664081446253033e-06	119
+1	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8851294790066181	5.182200072245706e-41	120
+2	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.6460753532205283	1.6075030068437964e-15	120
+3	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.6367193383634644	5.429334141476697e-15	120
+4	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8138031832035302	1.3737735633140242e-29	120
+5	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8849088961172166	5.764722998754712e-41	120
+6	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.9247144865999979	2.5237496238058314e-51	120
+7	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.7025516610849873	3.8103175872123223e-19	120
+8	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.9299878767921612	4.064245809328569e-53	120
+9	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.6074605282650096	1.8922149710187494e-13	120
+10	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.7411664860405062	3.7156079627668843e-22	120
+11	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.7506926102586076	5.541340081280727e-23	120
+12	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8190765733956935	2.974389396424165e-30	120
+13	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.5666342816160032	1.5203289174466358e-11	120
+14	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8947752390573932	3.920410416578864e-43	120
+15	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8787849591198655	1.020274571537018e-39	120
+16	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8981774262781436	6.244900777499099e-44	120
+17	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8420413371357597	2.0183618605096904e-33	120
+18	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8772539748705279	2.04255729016812e-39	120
+19	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8806561620912783	4.312071979521752e-40	120
+20	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8541191017694242	2.680748341924563e-35	120
+21	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8646658821537508	4.420875863280996e-37	120
+22	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8748724438160026	5.904572150496288e-39	120
+23	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8755528812601525	4.369551245624034e-39	120
+24	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8791251778419407	8.733190458490604e-40	120
+25	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8342163065280335	2.746515596504319e-32	120
+26	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.84340221202406	1.2633549797514415e-33	120
+27	Agent-confidence vs scenario complexity	scenario_complexity_code	ppCo	negative	-0.8417011184136847	2.2676026758263016e-33	120
