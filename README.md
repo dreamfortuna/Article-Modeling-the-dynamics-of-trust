@@ -119,6 +119,4 @@ Run the R scripts from either the repository root or the `Modeling/` directory. 
 - The provided `wheel_config.ini` is configured for a Logitech G29-style racing wheel. Other devices may require different axis/button indices.
 - Generated outputs such as Expyriment data files, CARLA driving logs, compiled Stan artifacts, and regenerated figures should be reviewed before public release.
 
-## Release Notes
 
-Before public release, confirm that the included participant data and video stimuli may be redistributed under the MIT license or describe any separate data-use terms here.
