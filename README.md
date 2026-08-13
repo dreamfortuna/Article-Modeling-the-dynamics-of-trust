@@ -4,7 +4,7 @@
 
 ## English
 
-This repository accompanies the article *Modeling Psychological and Behavioral Trust Dynamics in Human-ADS Interaction: A Cognitive Process Perspective* by Xing Pan, Jiacheng Liu, Song Ding, and Chongfeng Li.
+This repository accompanies the article *Modeling Psychological and Behavioral Trust Dynamics in Human-ADS Interaction: A Cognitive Process Perspective*.
 
 The study develops an interpretable and personalized model of trust dynamics in human-automated driving system (ADS) interaction. Based on Bayesian decision theory, the model connects driving-scenario complexity and ADS ability with task-decision confidence, psychological trust, and behavioral trust. A personalized trust threshold maps psychological trust to the driver's rely/takeover decision.
 
@@ -39,13 +39,17 @@ The modeling workflow requires R with `R.matlab`, `rstan`, and `parallel`. Run t
 
 The experiment programs are under `Experiment/Expyriment/`. CARLA scenarios require a running CARLA server, a matching Python API, and steering-wheel settings in `Experiment/Carla/wheel_config.ini`.
 
+### Citation
+
+The citation will be added after the article is indexed.
+
 ### License
 
 Released under the [MIT License](LICENSE).
 
 ## 中文
 
-本仓库是论文 *Modeling Psychological and Behavioral Trust Dynamics in Human-ADS Interaction: A Cognitive Process Perspective* 的配套资源。论文作者为 Xing Pan、Jiacheng Liu、Song Ding 和 Chongfeng Li。
+本仓库是论文 *Modeling Psychological and Behavioral Trust Dynamics in Human-ADS Interaction: A Cognitive Process Perspective* 的配套资源。
 
 本研究基于贝叶斯决策理论，构建了可解释、个体化的人类-自动驾驶系统（ADS）交互信任动态模型。模型将驾驶场景复杂度和 ADS 能力与任务决策信心、心理信任及行为信任相联系，并通过个体化信任阈值将心理信任映射为驾驶员的依赖/接管决策。
 
@@ -79,6 +83,10 @@ python Figure_Code/Figure7.py
 模型分析需要 R，以及 `R.matlab`、`rstan` 和 `parallel` 包。可从仓库根目录或 `Modeling/` 目录运行其中的脚本。
 
 实验程序位于 `Experiment/Expyriment/`。CARLA 场景还需要运行中的 CARLA 服务、版本匹配的 Python API，以及 `Experiment/Carla/wheel_config.ini` 中的方向盘配置。
+
+### 引用
+
+论文正式检索后将在此补充引用格式。
 
 ### 许可证
 
