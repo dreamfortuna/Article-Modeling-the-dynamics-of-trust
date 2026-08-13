@@ -451,7 +451,7 @@ generated quantities {
                   PcorCONDx_s = Pstate1CONDx_s;
                 } else if (choice == 0) {
 
-                  PcorCONDx_s = Pstate1CONDx_s;
+                  PcorCONDx_s = Pstate2CONDx_s;
                 }
                 ppCs[s,j] = PcorCONDx_s;
 

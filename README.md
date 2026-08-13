@@ -1,122 +1,81 @@
 # Modeling the Dynamics of Trust
 
-This repository contains analysis code, figure-generation scripts, source data, and Stan model files for the article project on modeling the dynamics of trust in human-automation interaction.
+[English](#english) | [中文](#中文)
 
-## Repository Structure
+## English
 
-- `Analysis_Code/`: Python analysis scripts and derived diagnostic tables.
-- `Data/`: participant-level MATLAB `.mat` data files used by the modeling scripts.
-- `Experiment/`: Expyriment scripts, CARLA driving scenarios, steering-wheel configuration, and video stimuli used for the behavioral experiment.
-- `Figure_Code/`: Python scripts for regenerating article figures. Generated SVG files are written to `Figure_Code/Figure/`.
-- `Figure_Source_Data/`: tab-delimited source data used by figure scripts.
-- `Figures/`: exported article figure images.
-- `Modeling/`: R scripts, Stan models, compiled model artifacts, model fits, and utility functions.
+This repository contains the data, experiment programs, analysis code, Stan models, and figure scripts for the study *Modeling the Dynamics of Trust* in human–automation interaction.
 
-## Data Notes
+### Repository layout
 
-The `Data/` directory contains participant-level MATLAB files. Files ending in `_t.mat` are the validation-set data used for model validation and diagnostic checks. The remaining participant files without the `_t` suffix are the fitting-set data used to fit the models.
+- `Analysis_Code/`: analysis and diagnostic scripts.
+- `Data/`: participant-level MATLAB data.
+- `Experiment/`: Expyriment tasks, CARLA scenarios, and stimuli.
+- `Modeling/`: R scripts, Stan models, and model outputs.
+- `Figure_Code/`: scripts for reproducing the figures.
+- `Figure_Source_Data/`: source data used by the figure scripts.
+- `Figures/`: exported article figures.
 
-## Python Setup
+Files ending in `_t.mat` are validation data; the other participant files are fitting data.
 
-Python 3.9 or 3.10 is recommended for the experiment scripts because Expyriment, PsychoPy, video playback backends, pygame, and CARLA Python APIs can be sensitive to Python and binary-wheel versions.
+### Setup and use
 
-Create and activate a virtual environment, then install the Python dependencies:
+Python 3.9 or 3.10 is recommended:
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate
 python -m pip install -r requirements.txt
 ```
 
-On macOS or Linux, activate the environment with `source .venv/bin/activate`.
-
-Regenerate all Python figures:
+Activate the environment with `.venv\Scripts\activate` on Windows or `source .venv/bin/activate` on macOS/Linux. Figure scripts can then be run from the repository root, for example:
 
 ```bash
 python Figure_Code/Figure7.py
-python Figure_Code/Figure8a.py
-python Figure_Code/Figure8b.py
-python Figure_Code/Figure9.py
-python Figure_Code/Figure10a.py
-python Figure_Code/Figure10b.py
-python Figure_Code/Figure11.py
-python Figure_Code/Figure12.py
-python Figure_Code/Figure13a.py
-python Figure_Code/Figure13b.py
 ```
 
-## Experiment Scripts
+The modeling workflow requires R with `R.matlab`, `rstan`, and `parallel`. Run the scripts in `Modeling/` from either that directory or the repository root.
 
-The `Experiment/` directory contains two parts of the experimental workflow:
+The experiment programs are under `Experiment/Expyriment/`. CARLA scenarios require a running CARLA server, a matching Python API, and steering-wheel settings in `Experiment/Carla/wheel_config.ini`.
 
-- `Experiment/Expyriment/`: participant-facing Expyriment tasks and local `.mpg` video stimuli.
-- `Experiment/Carla/`: CARLA manual-driving and switch-to-manual scenarios controlled with a steering wheel.
+### License
 
-The Expyriment scripts use repository-relative video paths, so they can be run from any working directory after the repository is cloned. They use a fixed random seed (`42`) for stimulus-order generation.
+Released under the [MIT License](LICENSE).
 
-Run one Expyriment condition:
+## 中文
+
+本仓库包含人机自动化交互研究 *Modeling the Dynamics of Trust* 使用的数据、实验程序、分析代码、Stan 模型及绘图脚本。
+
+### 仓库结构
+
+- `Analysis_Code/`：分析与诊断脚本。
+- `Data/`：参与者级 MATLAB 数据。
+- `Experiment/`：Expyriment 实验、CARLA 场景及刺激材料。
+- `Modeling/`：R 脚本、Stan 模型及模型输出。
+- `Figure_Code/`：论文图表复现脚本。
+- `Figure_Source_Data/`：绘图所用源数据。
+- `Figures/`：导出的论文图表。
+
+以 `_t.mat` 结尾的文件为验证集数据，其余参与者文件为模型拟合数据。
+
+### 环境与运行
+
+建议使用 Python 3.9 或 3.10：
 
 ```bash
-python Experiment/Expyriment/1_experiment.py
-python Experiment/Expyriment/2_experiment.py
-python Experiment/Expyriment/3_experiment.py
+python -m venv .venv
+python -m pip install -r requirements.txt
 ```
 
-The three scripts differ in the AI success/failure probability used during the task:
-
-- `1_experiment.py`: 50% success / 50% failure.
-- `2_experiment.py`: 70% success / 30% failure.
-- `3_experiment.py`: 90% success / 10% failure.
-
-Participant responses are written through Expyriment's data logging mechanism. The scripts expect the video stimuli to remain in `Experiment/Expyriment/mpg/`.
-
-## CARLA Setup
-
-The CARLA scripts require a running CARLA simulator and a compatible CARLA Python API. Install the CARLA Python API that matches the simulator version you use; this is intentionally not pinned in `requirements.txt` because CARLA API packages must match the local simulator build.
-
-Before running a CARLA scenario:
-
-1. Start the CARLA server.
-2. Confirm the host and port, which default to `127.0.0.1:2000`.
-3. Configure the steering-wheel axis/button indices in `Experiment/Carla/wheel_config.ini`.
-4. Connect exactly one steering wheel or joystick device.
-
-Run a manual-driving scenario:
+Windows 使用 `.venv\Scripts\activate` 激活环境，macOS/Linux 使用 `source .venv/bin/activate`。之后可从仓库根目录运行绘图脚本，例如：
 
 ```bash
-python Experiment/Carla/manual/manual_control_steeringwheel_01.py
+python Figure_Code/Figure7.py
 ```
 
-Run a switch-to-manual scenario:
+模型分析需要 R，以及 `R.matlab`、`rstan` 和 `parallel` 包。可从仓库根目录或 `Modeling/` 目录运行其中的脚本。
 
-```bash
-python Experiment/Carla/switch-manual/switch_steeringwheel_01.py
-```
+实验程序位于 `Experiment/Expyriment/`。CARLA 场景还需要运行中的 CARLA 服务、版本匹配的 Python API，以及 `Experiment/Carla/wheel_config.ini` 中的方向盘配置。
 
-Each scenario has five variants (`01` to `05`). CARLA logs are written beside each script under `manual_control_test_log/`, which is created automatically.
+### 许可证
 
-You can override the CARLA connection and display resolution:
-
-```bash
-python Experiment/Carla/manual/manual_control_steeringwheel_01.py --host 127.0.0.1 --port 2000 --res 3840x1080
-```
-
-## R and Stan Setup
-
-The modeling scripts require R with these packages:
-
-- `R.matlab`
-- `rstan`
-- `parallel`
-
-Run the R scripts from either the repository root or the `Modeling/` directory. The scripts resolve repository-relative paths internally.
-
-## Reproducibility Notes
-
-- The analysis and figure scripts resolve repository-relative paths and should be run from the repository root unless otherwise noted.
-- The Expyriment tasks use fixed random seeds for the trial sequence, but they still require interactive participant input.
-- CARLA results depend on the CARLA simulator version, map assets, physics timestep, rendering settings, steering-wheel hardware, and OS-level joystick indexing. Record these settings when collecting new experiment data.
-- The provided `wheel_config.ini` is configured for a Logitech G29-style racing wheel. Other devices may require different axis/button indices.
-- Generated outputs such as Expyriment data files, CARLA driving logs, compiled Stan artifacts, and regenerated figures should be reviewed before public release.
-
-
+本项目采用 [MIT License](LICENSE)。
