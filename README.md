@@ -1,10 +1,12 @@
-# Modeling the Dynamics of Trust
+# Modeling Psychological and Behavioral Trust Dynamics in Human-ADS Interaction: A Cognitive Process Perspective
 
 [English](#english) | [中文](#中文)
 
 ## English
 
-This repository contains the data, experiment programs, analysis code, Stan models, and figure scripts for the study *Modeling the Dynamics of Trust* in human–automation interaction.
+This repository accompanies the article *Modeling Psychological and Behavioral Trust Dynamics in Human-ADS Interaction: A Cognitive Process Perspective* by Xing Pan, Jiacheng Liu, Song Ding, and Chongfeng Li.
+
+The study develops an interpretable and personalized model of trust dynamics in human-automated driving system (ADS) interaction. Based on Bayesian decision theory, the model connects driving-scenario complexity and ADS ability with task-decision confidence, psychological trust, and behavioral trust. A personalized trust threshold maps psychological trust to the driver's rely/takeover decision.
 
 ### Repository layout
 
@@ -43,7 +45,9 @@ Released under the [MIT License](LICENSE).
 
 ## 中文
 
-本仓库包含人机自动化交互研究 *Modeling the Dynamics of Trust* 使用的数据、实验程序、分析代码、Stan 模型及绘图脚本。
+本仓库是论文 *Modeling Psychological and Behavioral Trust Dynamics in Human-ADS Interaction: A Cognitive Process Perspective* 的配套资源。论文作者为 Xing Pan、Jiacheng Liu、Song Ding 和 Chongfeng Li。
+
+本研究基于贝叶斯决策理论，构建了可解释、个体化的人类-自动驾驶系统（ADS）交互信任动态模型。模型将驾驶场景复杂度和 ADS 能力与任务决策信心、心理信任及行为信任相联系，并通过个体化信任阈值将心理信任映射为驾驶员的依赖/接管决策。
 
 ### 仓库结构
 
